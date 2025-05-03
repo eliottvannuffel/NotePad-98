@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_new"
+        android:title="New"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open"
+        android:title="Open..."
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save"
+        android:title="Save"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save_as"
+        android:title="Save As..."
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/separator1"
+        android:title=""
+        app:showAsAction="never"
+        android:enabled="false"/>
+
+
+    <item
+        android:id="@+id/action_cut"
+        android:title="Cut"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_copy"
+        android:title="Copy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_paste"
+        android:title="Paste"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_select_all"
+        android:title="Select All"
+        app:showAsAction="never" />
+
+
+</menu>
