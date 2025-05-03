@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.NotePad98" parent="android:Theme.Material.Light.NoActionBar" />
-            <style name="MyCustomTheme" parent="Theme.Material3.DayNight">
-                <!-- Customize your theme here. -->
-            </style>
+<style name="Theme.NotePad98" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/win98_window_background</item>
+</style>
 </resources>
